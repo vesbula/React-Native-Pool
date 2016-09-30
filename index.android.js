@@ -1,19 +1,17 @@
-'use strict';
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  Dimensions,
+  StyleSheet,
+  Text,
+  View,
+  Animated,
+  TouchableWithoutFeedback,
+  ListView
+} from 'react-native';
 
-var React = require('react-native');
-var Dimensions = require('Dimensions');
 var screenWidth = Dimensions.get('window').width;
 var screenHeight = Dimensions.get('window').height;
-
-var {
-    AppRegistry,
-    StyleSheet,
-    Text,
-    View,
-    Animated,
-    TouchableWithoutFeedback,
-    ListView
-} = React;
 
 var SQUARE_DIMENSIONS = 30;
 var TIMING_CONFIG = {duration: 30};
